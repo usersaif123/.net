@@ -32,40 +32,24 @@ namespace AM.ApplicationCore.Services
 
         public List<Flight> GetFlights(string filterType, string filterValue)
         {
-            List<Flight> result = new List<Flight>();
-            switch (filterType)
+            return filterType switch
             {
-                case "Destination":
-                    foreach (Flight flight in Flights)
-                        if (flight.Destination == filterValue)
-                            result.Add(flight);
-                    break;
-                case "EstimatedDuration":
-                    foreach (Flight flight in Flights)
-                        if (flight.EstimatedDuration == double.Parse(filterValue))
-                            result.Add(flight);
-                    break;
-            }
-            return result;
+                "Destination" => Flights.Where(f => f.Destination == filterValue).ToList(),
+                "EstimatedDuration" => Flights.Where(f => f.EstimatedDuration == double.Parse(filterValue)).ToList(),
+                _ => new List<Flight>()
+            };
         }
 
         public void ShowFlightDetails(Plane plane)
         {
-            var result = from flight in Flights
-                         where flight.Plane == plane
-                            select flight;
-
-            foreach (var flight in result)
-            {
-                Console.WriteLine($"Date: {flight.FlightDate} | Destination: {flight.Destination}");
-            }
+            Flights.Where(f => f.Plane == plane)
+                   .ToList()
+                   .ForEach(f => Console.WriteLine($"Date: {f.FlightDate} | Destination: {f.Destination}"));
         }
+
         public int ProgrammedFlightNumber(DateTime startDate)
         {
-            var result = from f in Flights
-                         where f.FlightDate >= startDate
-                         select f;
-            return result.Count();
+            return Flights.Count(f => f.FlightDate >= startDate);
         }
 
         public double DurationAverage(string destination)

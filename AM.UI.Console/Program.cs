@@ -82,4 +82,10 @@ foreach (var dest in fm.GetDestinations())
 Console.WriteLine("\n*** Test de la méthode ExistsParisFlight ***");
 Console.WriteLine("Existe-t-il un vol vers Paris ? " + fm.ExistsParisFlight());
 
+Console.WriteLine("\n*** Test de la méthode d'extension UpperFullName ***");
+Passenger pTest = new Passenger { FirstName = "steve", LastName = "jobs" };
+Console.WriteLine("Avant UpperFullName: " + pTest.FirstName + " " + pTest.LastName);
+pTest.UpperFullName();
+Console.WriteLine("Après UpperFullName: " + pTest.FirstName + " " + pTest.LastName);
+
 Console.ReadKey();
