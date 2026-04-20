@@ -64,4 +64,22 @@ foreach (var t in seniorTravellers)
     Console.WriteLine(t);
 }
 
+Console.WriteLine("\n*** Test de la méthode DestinationGroupedFlights ***");
+fm.DestinationGroupedFlights();
+
+Console.WriteLine("\n*** Test de la méthode FlightCountByDestination ***");
+fm.FlightCountByDestination();
+
+Console.WriteLine("\n*** Test de la méthode MostOccupiedFlight ***");
+Console.WriteLine(fm.MostOccupiedFlight());
+
+Console.WriteLine("\n*** Test de la méthode GetDestinations ***");
+foreach (var dest in fm.GetDestinations())
+{
+    Console.WriteLine(dest);
+}
+
+Console.WriteLine("\n*** Test de la méthode ExistsParisFlight ***");
+Console.WriteLine("Existe-t-il un vol vers Paris ? " + fm.ExistsParisFlight());
+
 Console.ReadKey();

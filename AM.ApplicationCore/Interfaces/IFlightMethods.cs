@@ -19,5 +19,15 @@ namespace AM.ApplicationCore.Domain
 
         IEnumerable<Traveller> SeniorTravellers(Flight flight);
 
+        void DestinationGroupedFlights();
+
+        void FlightCountByDestination();
+
+        Flight MostOccupiedFlight();
+
+        IEnumerable<string> GetDestinations();
+
+        bool ExistsParisFlight();
+
     }
 }

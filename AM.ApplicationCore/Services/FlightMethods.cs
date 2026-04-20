@@ -93,5 +93,44 @@ namespace AM.ApplicationCore.Services
                 .OrderBy(p => p.BirthDate)
                 .Take(3);
         }
+
+        public void DestinationGroupedFlights()
+        {
+            var groups = Flights.GroupBy(f => f.Destination);
+            foreach (var group in groups)
+            {
+                Console.WriteLine($"Destination {group.Key}");
+                foreach (var flight in group)
+                {
+                    Console.WriteLine($"Décollage : {flight.FlightDate:dd/MM/yyyy HH : mm :ss}");
+                }
+            }
+        }
+
+        public void FlightCountByDestination()
+        {
+            var counts = Flights.GroupBy(f => f.Destination)
+                                .Select(g => new { Destination = g.Key, Count = g.Count() });
+
+            foreach (var item in counts)
+            {
+                Console.WriteLine($"Destination: {item.Destination}, Nombre de vols: {item.Count}");
+            }
+        }
+
+        public Flight MostOccupiedFlight()
+        {
+            return Flights.OrderByDescending(f => f.Passengers.Count).FirstOrDefault();
+        }
+
+        public IEnumerable<string> GetDestinations()
+        {
+            return Flights.Select(f => f.Destination).Distinct();
+        }
+
+        public bool ExistsParisFlight()
+        {
+            return Flights.Any(f => f.Destination.Equals("Paris", StringComparison.OrdinalIgnoreCase));
+        }
     }
 }
