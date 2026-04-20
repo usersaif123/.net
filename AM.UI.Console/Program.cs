@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
 
@@ -44,5 +44,24 @@ fm.GetFlights("Destination", "Paris").ForEach(f => Console.WriteLine(f));
 
 Console.WriteLine("Test de la methode GetFlightDates: ");
 fm.ShowFlightDetails(TestData.BoingPlane);
+
+Console.WriteLine("Test de la methode DurationAverage: ");
+Console.WriteLine("La moyenne de durée des vols vers Madrid est : " + fm.DurationAverage("Madrid"));
+
+Console.WriteLine("\n*** Test de la méthode OrderedDurationFlights ***");
+foreach (var f in fm.OrderedDurationFlights())
+{
+    Console.WriteLine(f);
+}
+
+Console.WriteLine("\n*** Test de la méthode LongestFlight ***");
+Console.WriteLine(fm.LongestFlight());
+
+Console.WriteLine("\n*** Test de la méthode SeniorTravellers ***");
+var seniorTravellers = fm.SeniorTravellers(TestData.listFlights[0]);
+foreach (var t in seniorTravellers)
+{
+    Console.WriteLine(t);
+}
 
 Console.ReadKey();

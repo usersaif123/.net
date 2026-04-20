@@ -11,5 +11,13 @@ namespace AM.ApplicationCore.Domain
 
         void ShowFlightDetails(Plane plane);
 
+        double DurationAverage(string destination);
+
+        IEnumerable<Flight> OrderedDurationFlights();
+
+        Flight LongestFlight();
+
+        IEnumerable<Traveller> SeniorTravellers(Flight flight);
+
     }
 }

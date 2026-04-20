@@ -1,0 +1,77 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Mono auto generated files
+mono_crash.*
+
+# Nested MSBuild project build output
+*.deployproj
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+# Uncomment if you use Visual Studio Code
+.vscode/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-agent.log
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache files
+# Files ending in .cache can be ignored
+*.cache
+# But don't ignore files ending in .cache/
+!*.[Cc][Aa][Cc][Hh][Ee]/
+
+# Others
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegeneration.cs
+
+# Including everything else
+*
+!*/
+!*.cs
+!*.csproj
+!*.sln
+!*.slnx
+!*.json
+!*.md
+!*.gitignore

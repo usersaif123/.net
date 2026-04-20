@@ -9,3 +9,15 @@ C:\Users\ilyes\Documents\.net\AirportManagement\AM.ApplicationCore\obj\Debug\net
 C:\Users\ilyes\Documents\.net\AirportManagement\AM.ApplicationCore\obj\Debug\net10.0\refint\AM.ApplicationCore.dll
 C:\Users\ilyes\Documents\.net\AirportManagement\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.pdb
 C:\Users\ilyes\Documents\.net\AirportManagement\AM.ApplicationCore\obj\Debug\net10.0\ref\AM.ApplicationCore.dll
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\bin\Debug\net10.0\AM.ApplicationCore.deps.json
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\bin\Debug\net10.0\AM.ApplicationCore.dll
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\bin\Debug\net10.0\AM.ApplicationCore.pdb
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.AssemblyInfo.cs
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.sourcelink.json
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.dll
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\refint\AM.ApplicationCore.dll
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\AM.ApplicationCore.pdb
+C:\Users\steve\OneDrive\Bureau\4twin\ridh\test\AM.ApplicationCore\obj\Debug\net10.0\ref\AM.ApplicationCore.dll

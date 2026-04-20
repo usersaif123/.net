@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using AM.ApplicationCore.Domain;
 
 namespace AM.ApplicationCore.Services
@@ -57,6 +59,39 @@ namespace AM.ApplicationCore.Services
             {
                 Console.WriteLine($"Date: {flight.FlightDate} | Destination: {flight.Destination}");
             }
+        }
+        public int ProgrammedFlightNumber(DateTime startDate)
+        {
+            var result = from f in Flights
+                         where f.FlightDate >= startDate
+                         select f;
+            return result.Count();
+        }
+
+        public double DurationAverage(string destination)
+        {
+            return Flights
+                .Where(f => f.Destination == destination)
+                .Select(f => f.EstimatedDuration)
+                .Average();
+        }
+
+        public IEnumerable<Flight> OrderedDurationFlights()
+        {
+            return Flights.OrderByDescending(f => f.EstimatedDuration);
+        }
+
+        public Flight LongestFlight()
+        {
+            return Flights.OrderByDescending(f => f.EstimatedDuration).FirstOrDefault();
+        }
+
+        public IEnumerable<Traveller> SeniorTravellers(Flight flight)
+        {
+            return flight.Passengers
+                .OfType<Traveller>()
+                .OrderBy(p => p.BirthDate)
+                .Take(3);
         }
     }
 }
