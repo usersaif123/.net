@@ -15,7 +15,7 @@ namespace AM.ApplicationCore.Domain
 
         IEnumerable<Flight> OrderedDurationFlights();
 
-        Flight LongestFlight();
+        Flight? LongestFlight();
 
         IEnumerable<Traveller> SeniorTravellers(Flight flight);
 
@@ -23,7 +23,7 @@ namespace AM.ApplicationCore.Domain
 
         void FlightCountByDestination();
 
-        Flight MostOccupiedFlight();
+        Flight? MostOccupiedFlight();
 
         IEnumerable<string> GetDestinations();
 

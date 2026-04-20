@@ -6,13 +6,13 @@ namespace AM.ApplicationCore.Domain
     public class Flight
     {
         public int FlightId { get; set; }
-        public string Departure { get; set; }
-        public string Destination { get; set; }
+        public string? Departure { get; set; }
+        public string? Destination { get; set; }
         public DateTime EffectiveArrival { get; set; }
         public double EstimatedDuration { get; set; }
         public DateTime FlightDate { get; set; }
 
-        public Plane Plane { get; set; }
+        public Plane? Plane { get; set; }
         public int PlaneId { get; set; }
 
         public IList<Passenger> Passengers { get; set; } = new List<Passenger>();

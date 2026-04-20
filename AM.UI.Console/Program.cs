@@ -1,4 +1,3 @@
-using System;
 using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
 
@@ -26,12 +25,12 @@ staff.PassengerType();
 traveller.PassengerType();
 
 FlightMethods fm = new FlightMethods
-{ 
+{
     Flights = TestData.listFlights
 };
 
 Console.WriteLine("***Test de methode getFlights");
-foreach(var flight in fm.Flights)
+foreach (var flight in fm.Flights)
 {
     Console.WriteLine(flight);
 }
@@ -41,51 +40,45 @@ foreach (var item in fm.GetFlightDates("Madrid"))
     Console.WriteLine("La date du vol: " + item);
 
 fm.GetFlights("Destination", "Paris").ForEach(f => Console.WriteLine(f));
-
-Console.WriteLine("Test de la methode GetFlightDates: ");
+Console.WriteLine("Test de la methode ShowFlightDetails: ");
 fm.ShowFlightDetails(TestData.BoingPlane);
 
-Console.WriteLine("Test de la methode DurationAverage: ");
-Console.WriteLine("La moyenne de durée des vols vers Madrid est : " + fm.DurationAverage("Madrid"));
+Console.WriteLine("Programmed flights:");
+Console.WriteLine(fm.ProgrammedFlightNumber(DateTime.Now));
 
-Console.WriteLine("\n*** Test de la méthode OrderedDurationFlights ***");
+Console.WriteLine("Ordered flights by duration:");
 foreach (var f in fm.OrderedDurationFlights())
 {
     Console.WriteLine(f);
 }
 
-Console.WriteLine("\n*** Test de la méthode LongestFlight ***");
-Console.WriteLine(fm.LongestFlight());
-
-Console.WriteLine("\n*** Test de la méthode SeniorTravellers ***");
-var seniorTravellers = fm.SeniorTravellers(TestData.listFlights[0]);
-foreach (var t in seniorTravellers)
-{
-    Console.WriteLine(t);
-}
-
-Console.WriteLine("\n*** Test de la méthode DestinationGroupedFlights ***");
+Console.WriteLine("Grouped flights:");
 fm.DestinationGroupedFlights();
 
-Console.WriteLine("\n*** Test de la méthode FlightCountByDestination ***");
+Console.WriteLine("Flight count by destination:");
 fm.FlightCountByDestination();
 
-Console.WriteLine("\n*** Test de la méthode MostOccupiedFlight ***");
+Console.WriteLine("Most occupied flight:");
 Console.WriteLine(fm.MostOccupiedFlight());
 
-Console.WriteLine("\n*** Test de la méthode GetDestinations ***");
-foreach (var dest in fm.GetDestinations())
+Console.WriteLine("Destinations:");
+foreach (var d in fm.GetDestinations())
 {
-    Console.WriteLine(dest);
+    Console.WriteLine(d);
 }
 
-Console.WriteLine("\n*** Test de la méthode ExistsParisFlight ***");
-Console.WriteLine("Existe-t-il un vol vers Paris ? " + fm.ExistsParisFlight());
+Console.WriteLine("Exists Paris flight:");
+Console.WriteLine(fm.ExistsParisFlight());
 
-Console.WriteLine("\n*** Test de la méthode d'extension UpperFullName ***");
-Passenger pTest = new Passenger { FirstName = "steve", LastName = "jobs" };
-Console.WriteLine("Avant UpperFullName: " + pTest.FirstName + " " + pTest.LastName);
-pTest.UpperFullName();
-Console.WriteLine("Après UpperFullName: " + pTest.FirstName + " " + pTest.LastName);
+Console.WriteLine("Test UpperFullName:");
+
+Passenger p = new Passenger
+{
+    FirstName = "john",
+    LastName = "doe",
+    EmailAddress = "john.doe@example.com"
+};
+
+Console.WriteLine(p.UpperFullName());
 
 Console.ReadKey();
