@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{8090D6BE-B06F-8494-59CE-11F5F60E0883}|AM.UI.Console\\AM.UI.Console.csproj|solutionrelative:am.ui.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\steve\\onedrive\\bureau\\4twin\\ridh\\test\\am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\steve\\onedrive\\bureau\\4twin\\ridh\\test\\am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\steve\\onedrive\\bureau\\4twin\\ridh\\test\\am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\steve\\onedrive\\bureau\\4twin\\ridh\\test\\am.applicationcore\\services\\passengermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,20 +79,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FlightMethods.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Services\\FlightMethods.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Services\\FlightMethods.cs",
               "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Services\\FlightMethods.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Services\\FlightMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAmwOoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T13:26:29.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IFlightMethods.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
@@ -147,7 +147,7 @@
               "RelativeDocumentMoniker": "AM.UI.Console\\Program.cs",
               "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.UI.Console\\Program.cs",
               "RelativeToolTip": "AM.UI.Console\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswC0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:21:37.341Z",
               "EditorCaption": ""

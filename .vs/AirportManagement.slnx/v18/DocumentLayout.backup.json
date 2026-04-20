@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\steve\\onedrive\\bureau\\4twin\\ridh\\test\\am.applicationcore\\services\\passengermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\services\\passengermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\steve\\onedrive\\bureau\\4twin\\ridh\\test\\am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6077609-3F2B-8A66-7008-7B5C58FCEE91}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,15 +66,29 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "passengermethods.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Services\\passengermethods.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Services\\passengermethods.cs",
+              "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Services\\passengermethods.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Services\\passengermethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T15:15:33.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FlightMethods.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Services\\FlightMethods.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Services\\FlightMethods.cs",
               "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Services\\FlightMethods.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Services\\FlightMethods.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAmwOsAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:26:29.359Z"
+              "WhenOpened": "2026-04-13T13:26:29.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -80,25 +98,14 @@
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
               "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T13:21:21.943Z"
+              "WhenOpened": "2026-04-13T13:21:21.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Passenger.cs",
-              "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Passenger.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passenger.cs",
-              "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Passenger.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passenger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T12:53:54.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlaneType.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\PlaneType.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\PlaneType.cs",
@@ -110,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Plane.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Plane.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
@@ -122,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AM.ApplicationCore.csproj",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\AM.ApplicationCore.csproj",
@@ -140,14 +147,26 @@
               "RelativeDocumentMoniker": "AM.UI.Console\\Program.cs",
               "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.UI.Console\\Program.cs",
               "RelativeToolTip": "AM.UI.Console\\Program.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAswC0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T11:21:37.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Passenger.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passenger.cs",
+              "ToolTip": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Passenger.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T12:53:54.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Staff.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Staff.cs",
@@ -159,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "TestData.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\TestData.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\TestData.cs",
@@ -171,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Traveller.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Traveller.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Traveller.cs",
@@ -183,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Flight.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Domain\\Flight.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
@@ -195,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\steve\\OneDrive\\Bureau\\4twin\\ridh\\test\\AM.ApplicationCore\\Class1.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Class1.cs",

@@ -232,7 +232,7 @@ namespace AM.ApplicationCore.Services
             Flights.OrderByDescending(f => f.Passengers.Count).FirstOrDefault();
 
         public IEnumerable<string> GetDestinations() =>
-            Flights.Select(f => f.Destination).Distinct();
+            Flights.Select(f => f.Destination).OfType<string>().Distinct();
 
         public bool ExistsParisFlight() =>
             Flights.Any(f => f.Destination == "Paris");
